@@ -2,54 +2,505 @@ Installing 'zc.recipe.egg'.
 We have no distributions for zc.recipe.egg that satisfies 'zc.recipe.egg>=2.0.0a3'.
 Getting distribution for 'zc.recipe.egg>=2.0.0a3'.
 Running easy_install:
-"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/_ipython/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/_ipython/eggs/tmpaxrq0ipt" "-q" "/tmp/tmp7088jbevget_dist/zc.recipe.egg-2.0.2.tar.gz"
-path=/home/gcs/_ipython/eggs/setuptools-18.3.2-py3.5.egg
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmp22vq0enm" "-q" "/tmp/tmpbypmhro8get_dist/zc.recipe.egg-2.0.2.tar.gz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
 
-/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/setup.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/README.txt' mode='r' encoding='UTF-8'>
+/tmp/easy_install-3p3h21xp/zc.recipe.egg-2.0.2/setup.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-3p3h21xp/zc.recipe.egg-2.0.2/README.txt' mode='r' encoding='UTF-8'>
   return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
-/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/setup.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/CHANGES.txt' mode='r' encoding='UTF-8'>
+/tmp/easy_install-3p3h21xp/zc.recipe.egg-2.0.2/setup.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-3p3h21xp/zc.recipe.egg-2.0.2/CHANGES.txt' mode='r' encoding='UTF-8'>
   return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
-/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/setup.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/src/zc/recipe/egg/README.txt' mode='r' encoding='UTF-8'>
+/tmp/easy_install-3p3h21xp/zc.recipe.egg-2.0.2/setup.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-3p3h21xp/zc.recipe.egg-2.0.2/src/zc/recipe/egg/README.txt' mode='r' encoding='UTF-8'>
   return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
-/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/setup.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/src/zc/recipe/egg/custom.txt' mode='r' encoding='UTF-8'>
+/tmp/easy_install-3p3h21xp/zc.recipe.egg-2.0.2/setup.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-3p3h21xp/zc.recipe.egg-2.0.2/src/zc/recipe/egg/custom.txt' mode='r' encoding='UTF-8'>
   return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
-/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/setup.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/src/zc/recipe/egg/api.txt' mode='r' encoding='UTF-8'>
+/tmp/easy_install-3p3h21xp/zc.recipe.egg-2.0.2/setup.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-3p3h21xp/zc.recipe.egg-2.0.2/src/zc/recipe/egg/api.txt' mode='r' encoding='UTF-8'>
   return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 Got zc.recipe.egg 2.0.2.
 Picked: zc.recipe.egg = 2.0.2
 Unused options for buildout: 'interpreter'.
 Installing template.
-Installing 'ipython', 'requests'.
-We have no distributions for ipython that satisfies 'ipython==3.2.2'.
-Getting distribution for 'ipython==3.2.2'.
+Installing 'ipython', 'jupyter', 'requests'.
+We have no distributions for ipython that satisfies 'ipython'.
+Getting distribution for 'ipython'.
 Running easy_install:
-"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/_ipython/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/_ipython/eggs/tmpz9gew0lm" "-q" "/tmp/tmpe84swl5_get_dist/ipython-3.2.2.zip"
-path=/home/gcs/_ipython/eggs/setuptools-18.3.2-py3.5.egg
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpb0x8n10v" "-q" "/tmp/tmpd4rr7dx1get_dist/ipython-4.0.0.zip"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
 
-/tmp/easy_install-121z3hs8/ipython-3.2.2/setupbase.py:55: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-121z3hs8/ipython-3.2.2/IPython/core/release.py' mode='r' encoding='UTF-8'>
+/tmp/easy_install-r042_3j7/ipython-4.0.0/setupbase.py:55: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-r042_3j7/ipython-4.0.0/IPython/core/release.py' mode='r' encoding='UTF-8'>
   exec(compile(open(fname).read(), fname, "exec"), globs, locs)
-/tmp/easy_install-121z3hs8/ipython-3.2.2/setupbase.py:55: ResourceWarning: unclosed file <_io.TextIOWrapper name='IPython/utils/submodule.py' mode='r' encoding='UTF-8'>
-  exec(compile(open(fname).read(), fname, "exec"), globs, locs)
-rebuilding css and sourcemaps failed (not a problem)
-invoke is required to rebuild css (pip install invoke)
 checking package data
-Got ipython 3.2.2.
+Got ipython 4.0.0.
+Picked: ipython = 4.0.0
+We have no distributions for jupyter that satisfies 'jupyter'.
+Getting distribution for 'jupyter'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmp3ss4sgdd" "-q" "/tmp/tmpottumeceget_dist/jupyter-1.0.0.zip"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+zip_safe flag not set; analyzing archive contents...
+Got jupyter 1.0.0.
+Picked: jupyter = 1.0.0
 We have no distributions for requests that satisfies 'requests'.
 Getting distribution for 'requests'.
 Running easy_install:
-"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/_ipython/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/_ipython/eggs/tmpjjpeyanz" "-q" "/tmp/tmp0k046vglget_dist/requests-2.7.0.tar.gz"
-path=/home/gcs/_ipython/eggs/setuptools-18.3.2-py3.5.egg
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpzokqo_e3" "-q" "/tmp/tmp161lapqkget_dist/requests-2.7.0.tar.gz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
 
 Got requests 2.7.0.
 Picked: requests = 2.7.0
-Generated script '/home/gcs/_ipython/bin/ipcluster3'.
-Generated script '/home/gcs/_ipython/bin/ipcluster'.
-Generated script '/home/gcs/_ipython/bin/ipython'.
-Generated script '/home/gcs/_ipython/bin/ipengine3'.
-Generated script '/home/gcs/_ipython/bin/ipcontroller'.
-Generated script '/home/gcs/_ipython/bin/ipengine'.
-Generated script '/home/gcs/_ipython/bin/ipcontroller3'.
-Generated script '/home/gcs/_ipython/bin/iptest'.
-Generated script '/home/gcs/_ipython/bin/iptest3'.
-Generated script '/home/gcs/_ipython/bin/ipython3'.
-Generated interpreter '/home/gcs/_ipython/bin/python'.
+Getting required 'ipywidgets'
+  required by jupyter 1.0.0.
+We have no distributions for ipywidgets that satisfies 'ipywidgets'.
+Getting distribution for 'ipywidgets'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpe08i0foe" "-q" "/tmp/tmp3dmbjk30get_dist/ipywidgets-4.0.3.tar.gz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+zip_safe flag not set; analyzing archive contents...
+ipywidgets.__pycache__.jstest.cpython-35: module references __file__
+ipywidgets.__pycache__.install.cpython-35: module references __file__
+ipywidgets.__pycache__.__init__.cpython-35: module references __file__
+Got ipywidgets 4.0.3.
+Picked: ipywidgets = 4.0.3
+Getting required 'ipykernel'
+  required by jupyter 1.0.0.
+  required by ipywidgets 4.0.3.
+We have no distributions for ipykernel that satisfies 'ipykernel'.
+Getting distribution for 'ipykernel'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmp_3o9fflm" "-q" "/tmp/tmpz1zv7xhrget_dist/ipykernel-4.0.3.zip"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+zip_safe flag not set; analyzing archive contents...
+ipykernel.__pycache__.kernelspec.cpython-35: module references __file__
+Got ipykernel 4.0.3.
+Picked: ipykernel = 4.0.3
+Getting required 'nbconvert'
+  required by jupyter 1.0.0.
+We have no distributions for nbconvert that satisfies 'nbconvert'.
+Getting distribution for 'nbconvert'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmp_qv1baby" "-q" "/tmp/tmp0x79p0boget_dist/nbconvert-4.0.0.zip"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+zip_safe flag not set; analyzing archive contents...
+nbconvert.tests.__pycache__.base.cpython-35: module references __file__
+nbconvert.preprocessors.__pycache__.csshtmlheader.cpython-35: module references __file__
+nbconvert.preprocessors.tests.__pycache__.test_execute.cpython-35: module references __file__
+nbconvert.exporters.__pycache__.templateexporter.cpython-35: module references __file__
+Got nbconvert 4.0.0.
+Picked: nbconvert = 4.0.0
+Getting required 'jupyter-console'
+  required by jupyter 1.0.0.
+We have no distributions for jupyter-console that satisfies 'jupyter-console'.
+Getting distribution for 'jupyter-console'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmp5l5fljj3" "-q" "/tmp/tmpqt_w0sivget_dist/jupyter_console-4.0.2.zip"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+zip_safe flag not set; analyzing archive contents...
+jupyter_console.tests.__pycache__.test_image_handler.cpython-35: module references __file__
+Got jupyter-console 4.0.2.
+Picked: jupyter-console = 4.0.2
+Getting required 'qtconsole'
+  required by jupyter 1.0.0.
+We have no distributions for qtconsole that satisfies 'qtconsole'.
+Getting distribution for 'qtconsole'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpi3v21w4l" "-q" "/tmp/tmpohbne8qqget_dist/qtconsole-4.0.1.zip"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+zip_safe flag not set; analyzing archive contents...
+qtconsole.__pycache__.qtconsoleapp.cpython-35: module references __file__
+qtconsole.__pycache__.qt_loaders.cpython-35: module references __path__
+Got qtconsole 4.0.1.
+Picked: qtconsole = 4.0.1
+Getting required 'notebook'
+  required by jupyter 1.0.0.
+  required by ipywidgets 4.0.3.
+We have no distributions for notebook that satisfies 'notebook'.
+Getting distribution for 'notebook'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmppc1koql3" "-q" "/tmp/tmpvdgvua3jget_dist/notebook-4.0.5.tgz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+/tmp/easy_install-5us77no6/notebook-4.0.5/setupbase.py:50: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-5us77no6/notebook-4.0.5/notebook/_version.py' mode='r' encoding='UTF-8'>
+  exec(compile(open(fname).read(), fname, "exec"), globs, locs)
+checking package data
+Got notebook 4.0.5.
+Picked: notebook = 4.0.5
+Getting required 'pexpect'
+  required by ipython 4.0.0.
+We have no distributions for pexpect that satisfies 'pexpect'.
+Getting distribution for 'pexpect'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpmfk0008y" "-q" "/tmp/tmpnxhdxuxgget_dist/pexpect-3.3.tar.gz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+zip_safe flag not set; analyzing archive contents...
+Got pexpect 3.3.
+Picked: pexpect = 3.3
+Getting required 'traitlets'
+  required by ipython 4.0.0.
+  required by nbconvert 4.0.0.
+  required by qtconsole 4.0.1.
+  required by ipykernel 4.0.3.
+  required by ipywidgets 4.0.3.
+  required by notebook 4.0.5.
+We have no distributions for traitlets that satisfies 'traitlets'.
+Getting distribution for 'traitlets'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpmmy57z3i" "-q" "/tmp/tmpuhg92khkget_dist/traitlets-4.0.0.tar.gz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+warning: no previously-included files found matching 'docs/#*'
+no previously-included directories found matching 'docs/build'
+no previously-included directories found matching 'docs/gh-pages'
+no previously-included directories found matching 'docs/dist'
+warning: no previously-included files matching '*~' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '.git' found anywhere in distribution
+warning: no previously-included files matching '.ipynb_checkpoints' found anywhere in distribution
+zip_safe flag not set; analyzing archive contents...
+traitlets.config.__pycache__.loader.cpython-35: module references __file__
+Got traitlets 4.0.0.
+Picked: traitlets = 4.0.0
+Getting required 'simplegeneric>0.8'
+  required by ipython 4.0.0.
+We have no distributions for simplegeneric that satisfies 'simplegeneric>0.8'.
+Getting distribution for 'simplegeneric>0.8'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpqjd64vvs" "-q" "/tmp/tmp393m9x0cget_dist/simplegeneric-0.8.1.zip"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+/tmp/easy_install-logihn2c/simplegeneric-0.8.1/setup.py:39: ResourceWarning: unclosed file <_io.TextIOWrapper name='classifiers.txt' mode='r' encoding='UTF-8'>
+  line.strip() for line in open('classifiers.txt') if line.strip()
+zip_safe flag not set; analyzing archive contents...
+Got simplegeneric 0.8.1.
+Picked: simplegeneric = 0.8.1
+Getting required 'pickleshare'
+  required by ipython 4.0.0.
+We have no distributions for pickleshare that satisfies 'pickleshare'.
+Getting distribution for 'pickleshare'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpen7dtfth" "-q" "/tmp/tmphuqo9hpkget_dist/pickleshare-0.5.tar.gz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+zip_safe flag not set; analyzing archive contents...
+Got pickleshare 0.5.
+Picked: pickleshare = 0.5
+Getting required 'decorator'
+  required by ipython 4.0.0.
+  required by traitlets 4.0.0.
+We have no distributions for decorator that satisfies 'decorator'.
+Getting distribution for 'decorator'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpoorvemhy" "-q" "/tmp/tmphv9wdlnmget_dist/decorator-4.0.4.tar.gz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+/tmp/easy_install-of3kelc1/decorator-4.0.4/setup.py:4: ResourceWarning: unclosed file <_io.TextIOWrapper name='src/decorator.py' mode='r' encoding='UTF-8'>
+  exec(open('src/decorator.py').read(), dic)
+/tmp/easy_install-of3kelc1/decorator-4.0.4/setup.py:12: ResourceWarning: unclosed file <_io.TextIOWrapper name='docs/README.rst' mode='r' encoding='UTF-8'>
+  long_description=open('docs/README.rst').read(),
+Got decorator 4.0.4.
+Picked: decorator = 4.0.4
+Getting required 'jupyter-client'
+  required by qtconsole 4.0.1.
+  required by jupyter-console 4.0.2.
+  required by ipykernel 4.0.3.
+  required by notebook 4.0.5.
+We have no distributions for jupyter-client that satisfies 'jupyter-client'.
+Getting distribution for 'jupyter-client'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmplslj1weg" "-q" "/tmp/tmpshailb0cget_dist/jupyter_client-4.0.0.zip"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+warning: no previously-included files found matching 'docs/#*'
+warning: no directories found matching 'examples'
+no previously-included directories found matching 'docs/build'
+no previously-included directories found matching 'docs/gh-pages'
+no previously-included directories found matching 'docs/dist'
+warning: no previously-included files matching '*~' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '.git' found anywhere in distribution
+warning: no previously-included files matching '.ipynb_checkpoints' found anywhere in distribution
+zip_safe flag not set; analyzing archive contents...
+Got jupyter-client 4.0.0.
+Picked: jupyter-client = 4.0.0
+Getting required 'nbformat'
+  required by nbconvert 4.0.0.
+  required by notebook 4.0.5.
+We have no distributions for nbformat that satisfies 'nbformat'.
+Getting distribution for 'nbformat'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpd_e7zqzz" "-q" "/tmp/tmpotpi2sknget_dist/nbformat-4.0.0.zip"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+warning: no previously-included files found matching 'docs/#*'
+warning: no directories found matching 'examples'
+no previously-included directories found matching 'docs/build'
+no previously-included directories found matching 'docs/gh-pages'
+no previously-included directories found matching 'docs/dist'
+warning: no previously-included files matching '*~' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '.git' found anywhere in distribution
+warning: no previously-included files matching '.ipynb_checkpoints' found anywhere in distribution
+zip_safe flag not set; analyzing archive contents...
+nbformat.__pycache__.validator.cpython-35: module references __file__
+nbformat.v4.tests.__pycache__.test_validate.cpython-35: module references __file__
+nbformat.tests.__pycache__.base.cpython-35: module references __file__
+Got nbformat 4.0.0.
+Picked: nbformat = 4.0.0
+Getting required 'jupyter-core'
+  required by jupyter-client 4.0.0.
+  required by nbconvert 4.0.0.
+  required by nbformat 4.0.0.
+  required by qtconsole 4.0.1.
+  required by notebook 4.0.5.
+We have no distributions for jupyter-core that satisfies 'jupyter-core'.
+Getting distribution for 'jupyter-core'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpb2zf01wp" "-q" "/tmp/tmp6_nm6aw0get_dist/jupyter_core-4.0.6.zip"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+zip_safe flag not set; analyzing archive contents...
+jupyter_core.tests.__pycache__.test_migrate.cpython-35: module references __file__
+Got jupyter-core 4.0.6.
+Picked: jupyter-core = 4.0.6
+Getting required 'pygments'
+  required by nbconvert 4.0.0.
+  required by qtconsole 4.0.1.
+We have no distributions for pygments that satisfies 'pygments'.
+Getting distribution for 'pygments'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpnhm1txex" "-q" "/tmp/tmppdsqvruzget_dist/Pygments-2.0.2.tar.gz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+Got Pygments 2.0.2.
+Picked: Pygments = 2.0.2
+Getting required 'jinja2'
+  required by nbconvert 4.0.0.
+  required by notebook 4.0.5.
+We have no distributions for jinja2 that satisfies 'jinja2'.
+Getting distribution for 'jinja2'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpfpvyvbp8" "-q" "/tmp/tmp_clwda5wget_dist/Jinja2-2.8.tar.gz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+warning: no files found matching 'run-tests.py'
+warning: no files found matching '*' under directory 'custom_fixers'
+warning: no files found matching '*' under directory 'jinja2/testsuite/res'
+warning: no previously-included files matching '*' found under directory 'docs/_build'
+warning: no previously-included files matching '*.pyc' found under directory 'jinja2'
+warning: no previously-included files matching '*.pyc' found under directory 'docs'
+warning: no previously-included files matching '*.pyo' found under directory 'jinja2'
+warning: no previously-included files matching '*.pyo' found under directory 'docs'
+Got Jinja2 2.8.
+Picked: Jinja2 = 2.8
+Getting required 'mistune!=0.6'
+  required by nbconvert 4.0.0.
+We have no distributions for mistune that satisfies 'mistune!=0.6'.
+Getting distribution for 'mistune!=0.6'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmp9xxxcdnp" "-q" "/tmp/tmpbwlqo356get_dist/mistune-0.7.1.tar.gz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+warning: no previously-included files found matching 'mistune.c'
+warning: no previously-included files matching '*.pyc' found under directory 'tests'
+warning: no previously-included files matching '*.pyo' found under directory 'tests'
+Got mistune 0.7.1.
+Picked: mistune = 0.7.1
+Getting required 'terminado>=0.3.3'
+  required by notebook 4.0.5.
+We have no distributions for terminado that satisfies 'terminado>=0.3.3'.
+Getting distribution for 'terminado>=0.3.3'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpwbob93m7" "-q" "/tmp/tmpes1lkionget_dist/terminado-0.5.tar.gz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+zip_safe flag not set; analyzing archive contents...
+terminado.__pycache__.uimodule.cpython-35: module references __file__
+Got terminado 0.5.
+Picked: terminado = 0.5
+Getting required 'ipython-genutils'
+  required by nbformat 4.0.0.
+  required by traitlets 4.0.0.
+  required by notebook 4.0.5.
+We have no distributions for ipython-genutils that satisfies 'ipython-genutils'.
+Getting distribution for 'ipython-genutils'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmp1k0s4f4y" "-q" "/tmp/tmp60gt9pa8get_dist/ipython_genutils-0.1.0.zip"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+warning: no directories found matching 'docs'
+warning: no previously-included files found matching 'docs/#*'
+warning: no directories found matching 'examples'
+no previously-included directories found matching 'docs/build'
+no previously-included directories found matching 'docs/gh-pages'
+no previously-included directories found matching 'docs/dist'
+warning: no previously-included files matching '*~' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '.git' found anywhere in distribution
+warning: no previously-included files matching '.ipynb_checkpoints' found anywhere in distribution
+zip_safe flag not set; analyzing archive contents...
+Got ipython-genutils 0.1.0.
+Picked: ipython-genutils = 0.1.0
+Getting required 'tornado>=4'
+  required by notebook 4.0.5.
+We have no distributions for tornado that satisfies 'tornado>=4'.
+Getting distribution for 'tornado>=4'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpfqdo4o_g" "-q" "/tmp/tmp_bg4gvq2get_dist/tornado-4.2.1.tar.gz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+no previously-included directories found matching 'docs/build'
+warning: no files found matching 'tornado/test/README'
+tornado/speedups.c:44:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ PyInit_speedups() {
+ ^
+zip_safe flag not set; analyzing archive contents...
+tornado.__pycache__.speedups.cpython-35: module references __file__
+tornado.__pycache__.testing.cpython-35: module references __file__
+tornado.__pycache__.autoreload.cpython-35: module references __file__
+tornado.test.__pycache__.web_test.cpython-35: module references __file__
+tornado.test.__pycache__.template_test.cpython-35: module references __file__
+tornado.test.__pycache__.options_test.cpython-35: module references __file__
+tornado.test.__pycache__.locale_test.cpython-35: module references __file__
+tornado.test.__pycache__.iostream_test.cpython-35: module references __file__
+tornado.test.__pycache__.httpserver_test.cpython-35: module references __file__
+Got tornado 4.2.1.
+Picked: tornado = 4.2.1
+Getting required 'path.py'
+  required by pickleshare 0.5.
+We have no distributions for path.py that satisfies 'path.py'.
+Getting distribution for 'path.py'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpgyvaxnt5" "-q" "/tmp/tmpamk0vmu1get_dist/path.py-8.1.1.tar.gz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+
+Installed /tmp/easy_install-9iowl3ix/path.py-8.1.1/.eggs/setuptools_scm-1.8.0-py3.5.egg
+zip_safe flag not set; analyzing archive contents...
+Got path.py 8.1.1.
+Picked: path.py = 8.1.1
+Getting required 'pyzmq>=13'
+  required by jupyter-client 4.0.0.
+We have no distributions for pyzmq that satisfies 'pyzmq>=13'.
+Getting distribution for 'pyzmq>=13'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmp6gueq640" "-q" "/tmp/tmp9x492zhlget_dist/pyzmq-14.7.0.zip"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+no previously-included directories found matching 'docs/build'
+no previously-included directories found matching 'docs/gh-pages'
+warning: no previously-included files found matching 'bundled/zeromq/src/Makefile*'
+warning: no previously-included files found matching 'bundled/zeromq/src/platform.hpp'
+warning: no previously-included files found matching 'zmq/libzmq*'
+warning: no previously-included files matching '.deps/*' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+warning: no previously-included files matching '*.pyd' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '.git*' found anywhere in distribution
+warning: no previously-included files matching '.DS_Store' found anywhere in distribution
+warning: no previously-included files matching '.mailmap' found anywhere in distribution
+warning: no previously-included files matching 'Makefile.am' found anywhere in distribution
+warning: no previously-included files matching 'Makefile.in' found anywhere in distribution
+Using zmq-prefix /usr (found via pkg-config).
+/tmp/easy_install-857ti48d/pyzmq-14.7.0/setup.py:280: ResourceWarning: unclosed file <_io.BufferedReader name=4>
+  settings = settings_from_prefix(cfg['zmq_prefix'], self.bundle_libzmq_dylib)
+/tmp/easy_install-857ti48d/pyzmq-14.7.0/setup.py:280: ResourceWarning: unclosed file <_io.BufferedReader name=6>
+  settings = settings_from_prefix(cfg['zmq_prefix'], self.bundle_libzmq_dylib)
+Configure: Autodetecting ZMQ settings...
+    Custom ZMQ dir:       
+build/temp.linux-x86_64-3.5-pydebug/scratch/tmp/easy_install-857ti48d/pyzmq-14.7.0/temp/timer_createy1019gvx.o: dans la fonction « main »:
+timer_createy1019gvx.c:(.text+0x15): référence indéfinie vers « timer_create »
+collect2: error: ld returned 1 exit status
+    ZMQ version detected: 2.2.0
+Warning: Detected ZMQ version: 2.2.0, but pyzmq targets ZMQ 4.1.2.
+Warning: libzmq features and fixes introduced after 2.2.0 will be unavailable.
+zmq/backend/cython/_device.c: In function ‘__pyx_pf_3zmq_7backend_6cython_7_device_2proxy’:
+zmq/backend/cython/_device.c:1310:9: warning: variable ‘__pyx_v_capture_handle’ set but not used [-Wunused-but-set-variable]
+   void *__pyx_v_capture_handle;
+         ^
+zmq/backend/cython/context.c: In function ‘__pyx_pf_3zmq_7backend_6cython_7context_7Context_10set’:
+zmq/backend/cython/context.c:2044:7: warning: variable ‘__pyx_v_optval_int_c’ set but not used [-Wunused-but-set-variable]
+   int __pyx_v_optval_int_c;
+       ^
+zmq/backend/cython/message.c: In function ‘__pyx_pf_3zmq_7backend_6cython_7message_5Frame_24get’:
+zmq/backend/cython/message.c:3213:9: warning: variable ‘__pyx_v_property_c’ set but not used [-Wunused-but-set-variable]
+   char *__pyx_v_property_c;
+         ^
+zmq/backend/cython/socket.c: In function ‘__pyx_pf_3zmq_7backend_6cython_6socket_6Socket_20unbind’:
+zmq/backend/cython/socket.c:5081:9: warning: variable ‘__pyx_v_c_addr’ set but not used [-Wunused-but-set-variable]
+   char *__pyx_v_c_addr;
+         ^
+zmq/backend/cython/socket.c: In function ‘__pyx_pf_3zmq_7backend_6cython_6socket_6Socket_22disconnect’:
+zmq/backend/cython/socket.c:5298:9: warning: variable ‘__pyx_v_c_addr’ set but not used [-Wunused-but-set-variable]
+   char *__pyx_v_c_addr;
+         ^
+zmq/backend/cython/socket.c: In function ‘__pyx_pf_3zmq_7backend_6cython_6socket_6Socket_24monitor’:
+zmq/backend/cython/socket.c:5570:9: warning: variable ‘__pyx_v_c_addr’ set but not used [-Wunused-but-set-variable]
+   char *__pyx_v_c_addr;
+         ^
+zmq/backend/cython/socket.c:5569:7: warning: variable ‘__pyx_v_c_flags’ set but not used [-Wunused-but-set-variable]
+   int __pyx_v_c_flags;
+       ^
+zmq/backend/cython/socket.c: In function ‘__pyx_f_3zmq_7backend_6cython_6socket__send_copy’:
+zmq/backend/cython/socket.c:2479:13: warning: ‘__pyx_v_rc2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   __pyx_t_2 = __pyx_f_3zmq_7backend_6cython_7checkrc__check_rc(__pyx_v_rc2); if (unlikely(__pyx_t_2 == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 206; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+             ^
+zmq/backend/cython/socket.c:2327:11: warning: ‘__pyx_v_msg_c’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+           memcpy(zmq_msg_data((&__pyx_v_data)), __pyx_v_msg_c, zmq_msg_size((&__pyx_v_data)));
+           ^
+************************************************
+************************************************
+************************************************
+Got pyzmq 14.7.0.
+Picked: pyzmq = 14.7.0
+Getting required 'jsonschema!=2.5.0,>=2.0'
+  required by nbformat 4.0.0.
+We have no distributions for jsonschema that satisfies 'jsonschema!=2.5.0,>=2.0'.
+Getting distribution for 'jsonschema!=2.5.0,>=2.0'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmp84fsoxsz" "-q" "/tmp/tmpgq0cp45bget_dist/jsonschema-2.5.1.zip"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+zip_safe flag not set; analyzing archive contents...
+
+Installed /tmp/easy_install-a51ybn_n/jsonschema-2.5.1/.eggs/vcversioner-2.14.0.0-py3.5.egg
+zip_safe flag not set; analyzing archive contents...
+jsonschema.tests.__pycache__.test_jsonschema_test_suite.cpython-35: module references __file__
+Got jsonschema 2.5.1.
+Picked: jsonschema = 2.5.1
+Getting required 'MarkupSafe'
+  required by Jinja2 2.8.
+We have no distributions for MarkupSafe that satisfies 'MarkupSafe'.
+Getting distribution for 'MarkupSafe'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpgmz5ydo3" "-q" "/tmp/tmph583fbteget_dist/MarkupSafe-0.23.tar.gz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+/tmp/easy_install-i1vdlt2l/MarkupSafe-0.23/setup.py:61: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-i1vdlt2l/MarkupSafe-0.23/README.rst' mode='r' encoding='UTF-8'>
+  readme = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
+Got MarkupSafe 0.23.
+Picked: MarkupSafe = 0.23
+Getting required 'ptyprocess'
+  required by terminado 0.5.
+We have no distributions for ptyprocess that satisfies 'ptyprocess'.
+Getting distribution for 'ptyprocess'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/ipython-notebook-buildout/eggs/tmpa0rgce3v" "-q" "/tmp/tmpj7x_u9zqget_dist/ptyprocess-0.5.tar.gz"
+path=/home/gcs/ipython-notebook-buildout/eggs/setuptools-18.3.2-py3.5.egg
+
+zip_safe flag not set; analyzing archive contents...
+Got ptyprocess 0.5.
+Picked: ptyprocess = 0.5
+Generated script '/home/gcs/ipython-notebook-buildout/bin/iptest3'.
+Generated script '/home/gcs/ipython-notebook-buildout/bin/ipython3'.
+Generated script '/home/gcs/ipython-notebook-buildout/bin/ipython'.
+Generated script '/home/gcs/ipython-notebook-buildout/bin/iptest'.
+Generated interpreter '/home/gcs/ipython-notebook-buildout/bin/python'.
