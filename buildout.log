@@ -1,0 +1,55 @@
+Installing 'zc.recipe.egg'.
+We have no distributions for zc.recipe.egg that satisfies 'zc.recipe.egg>=2.0.0a3'.
+Getting distribution for 'zc.recipe.egg>=2.0.0a3'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/_ipython/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/_ipython/eggs/tmpaxrq0ipt" "-q" "/tmp/tmp7088jbevget_dist/zc.recipe.egg-2.0.2.tar.gz"
+path=/home/gcs/_ipython/eggs/setuptools-18.3.2-py3.5.egg
+
+/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/setup.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/README.txt' mode='r' encoding='UTF-8'>
+  return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
+/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/setup.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/CHANGES.txt' mode='r' encoding='UTF-8'>
+  return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
+/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/setup.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/src/zc/recipe/egg/README.txt' mode='r' encoding='UTF-8'>
+  return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
+/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/setup.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/src/zc/recipe/egg/custom.txt' mode='r' encoding='UTF-8'>
+  return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
+/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/setup.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-e_qvi2ow/zc.recipe.egg-2.0.2/src/zc/recipe/egg/api.txt' mode='r' encoding='UTF-8'>
+  return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
+Got zc.recipe.egg 2.0.2.
+Picked: zc.recipe.egg = 2.0.2
+Unused options for buildout: 'interpreter'.
+Installing template.
+Installing 'ipython', 'requests'.
+We have no distributions for ipython that satisfies 'ipython==3.2.2'.
+Getting distribution for 'ipython==3.2.2'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/_ipython/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/_ipython/eggs/tmpz9gew0lm" "-q" "/tmp/tmpe84swl5_get_dist/ipython-3.2.2.zip"
+path=/home/gcs/_ipython/eggs/setuptools-18.3.2-py3.5.egg
+
+/tmp/easy_install-121z3hs8/ipython-3.2.2/setupbase.py:55: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/easy_install-121z3hs8/ipython-3.2.2/IPython/core/release.py' mode='r' encoding='UTF-8'>
+  exec(compile(open(fname).read(), fname, "exec"), globs, locs)
+/tmp/easy_install-121z3hs8/ipython-3.2.2/setupbase.py:55: ResourceWarning: unclosed file <_io.TextIOWrapper name='IPython/utils/submodule.py' mode='r' encoding='UTF-8'>
+  exec(compile(open(fname).read(), fname, "exec"), globs, locs)
+rebuilding css and sourcemaps failed (not a problem)
+invoke is required to rebuild css (pip install invoke)
+checking package data
+Got ipython 3.2.2.
+We have no distributions for requests that satisfies 'requests'.
+Getting distribution for 'requests'.
+Running easy_install:
+"/opt/python/Python-3.5.0-build/bin/python3" "-c" "import sys; sys.path[0:0] = ['/home/gcs/_ipython/eggs/setuptools-18.3.2-py3.5.egg']; from setuptools.command.easy_install import main; main()" "-mZUNxd" "/home/gcs/_ipython/eggs/tmpjjpeyanz" "-q" "/tmp/tmp0k046vglget_dist/requests-2.7.0.tar.gz"
+path=/home/gcs/_ipython/eggs/setuptools-18.3.2-py3.5.egg
+
+Got requests 2.7.0.
+Picked: requests = 2.7.0
+Generated script '/home/gcs/_ipython/bin/ipcluster3'.
+Generated script '/home/gcs/_ipython/bin/ipcluster'.
+Generated script '/home/gcs/_ipython/bin/ipython'.
+Generated script '/home/gcs/_ipython/bin/ipengine3'.
+Generated script '/home/gcs/_ipython/bin/ipcontroller'.
+Generated script '/home/gcs/_ipython/bin/ipengine'.
+Generated script '/home/gcs/_ipython/bin/ipcontroller3'.
+Generated script '/home/gcs/_ipython/bin/iptest'.
+Generated script '/home/gcs/_ipython/bin/iptest3'.
+Generated script '/home/gcs/_ipython/bin/ipython3'.
+Generated interpreter '/home/gcs/_ipython/bin/python'.
