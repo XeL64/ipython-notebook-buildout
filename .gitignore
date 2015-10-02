@@ -7,3 +7,4 @@ develop-eggs
 eggs
 .installed.cfg
 parts
+_notebooks*
