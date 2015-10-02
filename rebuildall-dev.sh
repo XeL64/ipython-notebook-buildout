@@ -1,4 +1,5 @@
 #!/bin/bash
+    #pythonexc='/usr/bin/python3.4'
     #pythonexc='/opt/python/Python-2.7.6/python'
     #pythonexc='/opt/python/Python-2.7.10/python'
     #pythonexc='/opt/python/Python-3.4.3/python'

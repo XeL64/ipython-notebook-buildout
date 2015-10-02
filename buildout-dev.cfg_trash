@@ -1,0 +1,39 @@
+[buildout]
+
+parts+=
+    ipython_part
+#    dev_part
+
+extends = buildout.cfg
+
+versions = versions
+
+[ipython_part]
+recipe = zc.recipe.egg:scripts
+eggs =
+    ipython
+#    pyzmq
+#    jinja2
+#    tornado
+#    jsonschema
+    jupyter
+    ipykernel
+
+extra-paths = 
+    ${buildout:directory}/eggs/ipykernel-4.0.3-py3.5.egg/
+    /usr/lib/python3/dist-packages/
+
+scripts = ipython
+
+[dev_part]
+recipe = zc.recipe.egg:scripts
+eggs =
+#    mercurial
+#    bpython
+#    pep8
+#    autopep8
+
+interpreter = python
+
+[versions]
+#ipython=3.2.2
