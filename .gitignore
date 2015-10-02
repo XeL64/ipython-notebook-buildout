@@ -1,5 +1,6 @@
 *.log
 *.ign
+*.ipynb
 bootstrap.py
 bootstrap-buildout.py
 bin
@@ -7,4 +8,3 @@ develop-eggs
 eggs
 .installed.cfg
 parts
-_notebooks*
