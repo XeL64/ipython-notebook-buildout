@@ -1,4 +1,5 @@
 *.log
+*.ign
 bootstrap.py
 bootstrap-buildout.py
 bin
